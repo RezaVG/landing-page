@@ -126,13 +126,14 @@ a, p {
 .action {
     background-color: #3882f6;
     color:#f9faf8;
-    width: 800px;
+    max-width: 800px;
     border-radius: 12px;
     margin: 0 auto 50px auto;
     padding: 25px 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    gap: 50px;
 }
 .action-title {
     font-size: 24px;
@@ -153,3 +154,4 @@ a, p {
     border: 2px solid #f9faf8;
     border-radius: 12px;
     max-width: 120px;
+}
