@@ -122,3 +122,34 @@ a, p {
     text-align: right;
     font-weight: 500;
 }
+
+.action {
+    background-color: #3882f6;
+    color:#f9faf8;
+    width: 800px;
+    border-radius: 12px;
+    margin: 0 auto 50px auto;
+    padding: 25px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.action-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+.action-text {
+    font-size: 20px;
+    font-wight: 400;
+}
+.action button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 8px 20px;
+    border: 2px solid #f9faf8;
+    border-radius: 12px;
+    max-width: 120px;
